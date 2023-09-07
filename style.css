@@ -5,32 +5,36 @@
 }
 
 .caixa{
-	width:100%;
-	height:100%;
+	width: 100%;
+	height: 100%;
 }
 
-header {
-    background-color: #DEB887;
-    width: 100%;
-    height: 10vh; 
-	color: white;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
+	header {
+	    background-color: #DEB887;
+	    width: 100%;
+	    height: 10vh; 
+		color: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 
-header h1{
-	font-family:"Poppins";
-}
+	header h1{
+		font-family: "Poppins";
+	}
 
-main {
-    background-color: white;
-    width: 100%;
-    height: 85vh;
-}
+	main {
+	    background-color: white;
+	    width: 100%;
+	    height: 87vh;
+	}
 
-footer {
-    background-color: #DEB887;
-    width: 100%;
-    height: 5vh;
-}
+	footer {
+	    background-color: #DEB887;
+	    width: 100%;
+	    height: 3vh;
+	    display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size:0.5em;
+	}
