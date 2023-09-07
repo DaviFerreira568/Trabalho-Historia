@@ -32,6 +32,7 @@
 	footer {
 	    background-color: #DEB887;
 	    width: 100%;
+		color: white;
 	    height: 3vh;
 	    display: flex;
 		justify-content: center;
