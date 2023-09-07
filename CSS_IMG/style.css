@@ -47,6 +47,10 @@
     background-color: #555;
 }
 
+.menu-imagem{
+	background: transparent;
+}
+
 /* Estilo do conteúdo da página quando o menu está aberto */
 .menu-open {
     width: 250px;
