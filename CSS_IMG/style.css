@@ -1,43 +1,43 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-.caixa{
+.caixa {
 	width: 100%;
 	height: 100%;
 }
 
-	header {
-	    background-color: #DEB887;
-	    width: 100%;
-	    height: 10vh; 
-		color: white;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
+header {
+	background-color: #DEB887;
+	width: 100%;
+	height: 10vh;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
-	header a{
-		font-family: "Poppins";
-		text-decoration: none;
-		color: white;
-	}
+header a {
+	font-family: "Poppins";
+	text-decoration: none;
+	color: white;
+}
 
-	main {
-	    background-color: white;
-	    width: 100%;
-	    height: 87vh;
-	}
+main {
+	background-color: white;
+	width: 100%;
+	height: 87vh;
+}
 
-	footer {
-	    background-color: #DEB887;
-	    width: 100%;
-		color: black;
-	    height: 3vh;
-	    display: flex;
-		justify-content: center;
-		align-items: center;
-		font-size:0.895em;
-	}
+footer {
+	background-color: #DEB887;
+	width: 100%;
+	color: black;
+	height: 3vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.895em;
+}
