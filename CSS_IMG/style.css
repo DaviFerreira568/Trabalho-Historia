@@ -19,9 +19,10 @@
 		align-items: center;
 	}
 
-	header h1{
+	header a{
 		font-family: "Poppins";
 		text-decoration: none;
+		color: white;
 	}
 
 	main {
