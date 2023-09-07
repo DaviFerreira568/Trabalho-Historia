@@ -1,27 +1,27 @@
-*{
+/* Reset de margens e preenchimentos para todos os elementos */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* Certifique-se de incluir esta propriedade para evitar problemas de layout */
 }
 
-.caixa{
-	width: 100%;
-	height: 100%;
-	background-color: black;
+/* Estilos para o cabeçalho */
+header {
+    background-color: #DEB887;
+    width: 100%;
+    height: 30vh; /* Alterei a unidade para vh (viewport height) para garantir que ocupe a altura da janela de visualização. */
 }
 
-header{
-	background-color:#DEB887;
-	width:100%;
-	height:30%;
+/* Estilos para o conteúdo principal */
+main {
+    background-color: black;
+    width: 100%;
+    height: 60vh; /* Alterei a unidade para vh para garantir que ocupe a altura da janela de visualização. */
 }
 
-main{
-	background-color:black;
-	width:100%;
-	height:60%;
-}
-footer{
-	width: 100%;
-	height:60%;
-	background-color:#DEB887;
+/* Estilos para o rodapé */
+footer {
+    background-color: #DEB887;
+    width: 100%;
+    height: 10vh; /* Alterei a unidade para vh para garantir que ocupe a altura da janela de visualização. */
 }
