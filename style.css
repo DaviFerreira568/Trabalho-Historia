@@ -12,24 +12,30 @@
 header {
     background-color: #DEB887;
     width: 100%;
-    height: 10%; 
+    height: 10vh; 
 	color: white;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
 }
 
 header h1{
 	font-family:"Poppins";
-	margin-top: 40px;
+	
+	
+
+
 }
 
 main {
     background-color: white;
     width: 100%;
-    height: 85%;
+    height: 85vh;
 }
 
 footer {
     background-color: #DEB887;
     width: 100%;
-    height: 5%;
+    height: 5ch;
 }
