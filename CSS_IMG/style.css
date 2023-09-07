@@ -21,6 +21,7 @@
 
 	header h1{
 		font-family: "Poppins";
+		text-decoration: none;
 	}
 
 	main {
