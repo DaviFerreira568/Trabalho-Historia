@@ -1,39 +1,24 @@
-/* Reset de estilos para todos os elementos */
+/* Adicione seu CSS personalizado aqui */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo para a caixa principal */
 .caixa {
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-/*--------------------------------------------------*/
-/* Estilo do botão de menu (ícone de menu) */
-/* Estilo do ícone de menu */
-/* Estilo do ícone de menu */
-.menu-icon {
-    width: 2em; /* Largura do ícone (2 vezes o tamanho da fonte padrão) */
-    height: 0.4em; /* Altura das barras do ícone (0.4 vezes o tamanho da fonte padrão) */
-    background-color: white; /* Cor das barras do ícone */
-    margin: 0.2em 0; /* Espaçamento entre as barras do ícone (0.2 vezes o tamanho da fonte padrão) */
-    transition: 0.4s; /* Efeito de transição suave */
-    position: absolute; /* Posição absoluta em relação ao elemento pai */
-    top: 10px; /* Distância do topo da página */
-    left: 10px; 
-    z-index: 2; 
+.menu-toggle {
+    text-align: center;
+    padding: 10px;
+    background: transparent;
+
 }
 
-/* Estilo do botão de menu (ícone de menu) quando hover */
-.menu-icon:hover {
-    background-color: #555; 
-}
-
-
-/* Estilo do menu lateral oculto */
 .menu {
     width: 0;
     background-color: #333;
@@ -43,18 +28,11 @@
     left: 0;
     overflow-x: hidden;
     transition: 0.5s;
-    display: flex;
-    flex-direction: column; /* Para alinhar itens verticalmente */
-    justify-content: flex-start; /* Alinhar o conteúdo no topo */
-    padding: 20px; /* Adicione espaçamento interno ao menu */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para o menu */
-    z-index: 0; /* Certifique-se de que o menu esteja acima de outros elementos */
 }
 
 .menu ul {
     list-style: none;
     padding: 0;
-    margin: 0;
 }
 
 .menu li {
@@ -72,41 +50,9 @@
     background-color: #555;
 }
 
-/* Estilo do conteúdo da página quando o menu está aberto */
 .menu-open {
     width: 250px;
 }
-
-/* Media query para telas menores (por exemplo, telas menores que 768px de largura) */
-@media (max-width: 768px) {
-    .menu {
-        padding: 10px; /* Reduza o espaçamento interno */
-    }
-
-    /* Estilo do ícone de menu */
-.menu-icon {
-    width: 2em; /* Largura do ícone (2 vezes o tamanho da fonte padrão) */
-    height: 0.4em; /* Altura das barras do ícone (0.4 vezes o tamanho da fonte padrão) */
-    background-color: #333; /* Cor das barras do ícone */
-    margin: 0.2em 0; /* Espaçamento entre as barras do ícone (0.2 vezes o tamanho da fonte padrão) */
-    transition: 0.4s; /* Efeito de transição suave */
-    position: absolute; /* Posição absoluta em relação ao elemento pai */
-    top: 10px; /* Distância do topo da página */
-    left: 0px; /* Distância da esquerda da página */
-    z-index: 2; /* Certifique-se de que o ícone esteja acima do conteúdo */
-}
-
-/* Estilo do botão de menu (ícone de menu) quando hover */
-.menu-icon:hover {
-    background-color: #555; /* Cor das barras quando hover */
-}
-
-    .menu-open {
-        width: 100%; /* Ocupa a largura total da tela */
-    }
-}
-
-/* Restante do seu CSS... */
 
 .content {
     margin-left: 0;
@@ -114,8 +60,6 @@
     transition: 0.5s;
 }
 
-/*--------------------------------------------------*/
-/* Estilo do cabeçalho */
 header {
     background-color: #DEB887;
     width: 100%;
@@ -132,27 +76,12 @@ header a {
     color: white;
 }
 
-/* Estilo do conteúdo principal */
 main {
     background-color: white;
     width: 100%;
     height: 87vh;
 }
-	main h2 {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		font-family: "Poppins";
-	}
 
-
-main h3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Estilo do rodapé */
 footer {
     background-color: #DEB887;
     width: 100%;
@@ -162,4 +91,23 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 0.895em;
+}
+
+/* Estilo do botão de menu */
+.menu-toggle button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-toggle .button {
+    width: 30px;
+    height: 5px;
+    background-color: #333;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+.menu-toggle button:hover .button {
+    background-color: #555;
 }
