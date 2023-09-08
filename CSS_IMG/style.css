@@ -1,127 +1,126 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
+
 
 .caixa {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 }
+
 /*--------------------Menu--------------------*/
 .menu-toggle {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    z-index: 2;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 2;
 }
+
 .menu {
-    width: 0;
-    background-color: #333;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-    transition: 0.5s;
+	width: 0;
+	background-color: black;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	transition: 0.5s;
 }
 
 .menu ul {
-    list-style: none;
-    padding: 0;
+	list-style: none;
+	padding: 0;
 }
 
 .menu li {
-    padding: 10px;
+	padding: 10px;
 }
 
 .menu a {
-    color: #fff;
-    text-decoration: none;
-    display: block;
-    transition: 0.3s;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	transition: 0.3s;
 }
 
 .menu a:hover {
-    background-color: #555;
+	background-color: #555;
 }
 
 
-#paginainicial{
+#paginainicial {
 	margin-top: 50px;
 }
 
 .menu-open {
-    width: 250px;
+	width: 250px;
 }
 
 .content {
-    margin-left: 0;
-    padding: 20px;
-    transition: 0.5s;
+	margin-left: 0;
+	padding: 20px;
+	transition: 0.5s;
 }
 
 .menu-toggle button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
 }
 
 .menu-toggle .button {
-    width: 30px;
-    height: 7px;
-    background-color: white;
-    margin: 4px 0;
-    transition: 0.4s;
+	width: 30px;
+	height: 7px;
+	background-color: white;
+	margin: 4px 0;
+	transition: 0.4s;
 }
 
 .menu-toggle button:hover .button {
-    background-color: gray;
+	background-color: gray;
 }
 
 /*----------------------------------------*/
 
 header {
-    background-color: #DEB887;
-    width: 100%;
-    height: 10vh;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	background-color: black;
+	width: 100%;
+	height: 10vh;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 header a {
-    font-family: "Poppins";
-    text-decoration: none;
-    color: white;
+	font-family: "Poppins";
+	text-decoration: none;
+	color: white;
 }
 
 main {
-    background-color: white;
-    width: 100%;
-    height: 87vh;
+	background-color: white;
+	width: 100%;
+	height: 87vh;
 }
 
-	main h2{
-		display: flex;
-   		justify-content: center;
-    	align-items: center;
-	}
+main h2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 footer {
-    background-color: #DEB887;
-    width: 100%;
-    color: black;
-    height: 3vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 0.895em;
+	background-color: black;
+	width: 100%;
+	color: white;
+	height: 3vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.895em;
 }
-
-
-
