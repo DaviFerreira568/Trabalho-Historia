@@ -106,6 +106,12 @@ main {
     height: 87vh;
 }
 
+	main h2{
+		display: flex;
+   		justify-content: center;
+    	align-items: center;
+	}
+
 footer {
     background-color: #DEB887;
     width: 100%;
