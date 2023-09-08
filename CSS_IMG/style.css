@@ -1,4 +1,4 @@
-/* Adicione seu CSS personalizado aqui */
+
 * {
     margin: 0;
     padding: 0;
@@ -93,7 +93,7 @@ footer {
     font-size: 0.895em;
 }
 
-/* Estilo do botão de menu */
+
 .menu-toggle button {
     background-color: transparent;
     border: none;
@@ -102,7 +102,7 @@ footer {
 
 .menu-toggle .button {
     width: 30px;
-    height: 5px;
+    height: 7px;
     background-color: #333;
     margin: 4px 0;
     transition: 0.4s;
