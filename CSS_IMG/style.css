@@ -48,7 +48,9 @@
 .menu a:hover {
     background-color: #555;
 }
-.menu li :first-child{
+
+
+#paginainicial{
 	margin-top: 50px;
 }
 
