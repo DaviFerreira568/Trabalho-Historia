@@ -18,13 +18,13 @@
 .menu-icon {
     width: 2em; /* Largura do ícone (2 vezes o tamanho da fonte padrão) */
     height: 0.4em; /* Altura das barras do ícone (0.4 vezes o tamanho da fonte padrão) */
-    background-color: #333; /* Cor das barras do ícone */
+    background-color: white; /* Cor das barras do ícone */
     margin: 0.2em 0; /* Espaçamento entre as barras do ícone (0.2 vezes o tamanho da fonte padrão) */
     transition: 0.4s; /* Efeito de transição suave */
     position: absolute; /* Posição absoluta em relação ao elemento pai */
     top: 10px; /* Distância do topo da página */
-    left: 10px; /* Distância da esquerda da página */
-    z-index: 2; /* Certifique-se de que o ícone esteja acima do conteúdo */
+    left: 10px; 
+    z-index: 2; 
 }
 
 /* Estilo do botão de menu (ícone de menu) quando hover */
