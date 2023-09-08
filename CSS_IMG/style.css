@@ -95,3 +95,17 @@ footer {
 	align-items: center;
 	font-size: 0.895em;
 }
+
+/* Estilo do ícone de menu */
+.menu-icon {
+    width: 30px; /* Largura do ícone */
+    height: 5px; /* Altura das barras do ícone */
+    background-color: #333; /* Cor das barras do ícone */
+    margin: 6px 0; /* Espaçamento entre as barras do ícone */
+    transition: 0.4s; /* Efeito de transição suave */
+}
+
+/* Animação do ícone de menu quando hover (opcional) */
+.menu-icon:hover {
+    background-color: #555; /* Cor das barras quando hover */
+}
