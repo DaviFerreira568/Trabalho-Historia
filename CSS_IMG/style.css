@@ -13,12 +13,11 @@
 }
 
 .menu-toggle {
-    text-align: center;
-    padding: 10px;
-    background: transparent;
-
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
 }
-
 .menu {
     width: 0;
     background-color: #333;
@@ -48,6 +47,9 @@
 
 .menu a:hover {
     background-color: #555;
+}
+.menu li :first-child{
+	margin-top: 50px;
 }
 
 .menu-open {
@@ -103,7 +105,7 @@ footer {
 .menu-toggle .button {
     width: 30px;
     height: 7px;
-    background-color: #333;
+    background-color: white;
     margin: 4px 0;
     transition: 0.4s;
 }
