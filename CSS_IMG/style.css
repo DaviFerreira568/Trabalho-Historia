@@ -37,7 +37,7 @@
 }
 
 .menu li {
-	padding: 10px;
+  padding: 1rem;
 }
 
 .menu a {
@@ -53,7 +53,7 @@
 
 
 #paginainicial {
-	margin-top: 50px;
+	margin-top: 9vh;
 }
 
 .menu-open {
