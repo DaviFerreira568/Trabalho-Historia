@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
 }
-
+/*--------------------Menu--------------------*/
 .menu-toggle {
     position: absolute;
     top: 10px;
@@ -64,6 +64,26 @@
     transition: 0.5s;
 }
 
+.menu-toggle button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-toggle .button {
+    width: 30px;
+    height: 7px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+.menu-toggle button:hover .button {
+    background-color: gray;
+}
+
+/*----------------------------------------*/
+
 header {
     background-color: #DEB887;
     width: 100%;
@@ -98,20 +118,4 @@ footer {
 }
 
 
-.menu-toggle button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
 
-.menu-toggle .button {
-    width: 30px;
-    height: 7px;
-    background-color: white;
-    margin: 4px 0;
-    transition: 0.4s;
-}
-
-.menu-toggle button:hover .button {
-    background-color: gray;
-}
