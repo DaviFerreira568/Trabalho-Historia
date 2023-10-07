@@ -4,14 +4,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const content = document.querySelector(".content");
 
     ativarBotao.addEventListener("click", function () {
-        menu.classList.toggle("menu-open");
-        content.classList.toggle("menu-open");
+        menu.classList.toggle("menuAberto");
+        content.classList.toggle("menuAberto");
     });
 
     document.addEventListener("click", function (event) {
         if (!menu.contains(event.target) && !ativarBotao.contains(event.target)) {
-            menu.classList.remove("menu-open");
-            content.classList.remove("menu-open");
+            menu.classList.remove("menuAberto");
+            content.classList.remove("menuAberto");
         }
     });
 });
