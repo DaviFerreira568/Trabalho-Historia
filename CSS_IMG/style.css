@@ -37,11 +37,9 @@
 	display: block;
 	transition: 0.3s;
 }
-
-
-.menu li:hover{
+.menu li:hover {
 	background-color: #555;
-	transition: 0.5s;
+	transition: 0.7s;
 }
 #paginainicial {
 	margin-top: 9vh;
@@ -108,7 +106,7 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 0.895em;
+	font-size: 0.895em;
 }
 
 .container-buttonTurma{
@@ -118,6 +116,7 @@ footer {
 	flex-direction: column;
 	margin-top: 18vh;
 }
+
 
 .button-turma {
     padding: 1vw 1vw;
@@ -135,6 +134,5 @@ footer {
 
 .button-turma:hover {
     background-color:#0056b3;
-	transition: 0.5s;
+	transition:1s;
 }
-
