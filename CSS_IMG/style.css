@@ -55,8 +55,9 @@
 	display: block;
 	transition: 0.3s;
 }
-.menu a:hover {
+.menu li:hover {
 	background-color: #555;
+	transition: 0.7s;
 }
 #paginainicial {
 	margin-top: 9vh;
@@ -118,5 +119,33 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 0.895em;
+	font-size: 0.895em;
+}
+
+.container-buttonTurma{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 18vh;
+}
+
+
+.button-turma {
+    padding: 1vw 1vw;
+    font-size: 1.5rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s  ;
+	width: 26vw;
+
+
+}
+
+.button-turma:hover {
+    background-color:#0056b3;
+	transition:1s;
 }
