@@ -17,19 +17,6 @@
 	border: none;
 	cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 .menu-ativar {
 	position: absolute;
 	top: 10px;
@@ -45,6 +32,7 @@
 	left: 0;
 	overflow-x: hidden;
 	transition: 0.5s;
+	font-family: "Poppins";
 }
 .menu li {
   padding: 1rem;
@@ -127,25 +115,20 @@ footer {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	margin-top: 18vh;
+	margin-top: 24vh;
 }
-
-
 .button-turma {
-    padding: 1vw 1vw;
+    padding: 0.5vw 0.5vw;
     font-size: 1.5rem;
-    background-color: #007BFF;
+    background-color: #072749;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s  ;
-	width: 26vw;
-
-
+	width: 15vw;
 }
-
 .button-turma:hover {
-    background-color:#0056b3;
-	transition:1s;
+    background-color:#2f5781;
+	transition:0.5s;
 }
