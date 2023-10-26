@@ -115,6 +115,33 @@ main h2{
 	justify-content: center;
 	align-items: center;
 }
+.cartao{
+	position: relative;
+	height: 40vh;
+	width: 30vh;
+	border-radius: 20px;
+	background-color: rgba(0, 0, 0, 0.288);
+	margin-left: 10vh;
+	transition: .3s;
+}
+.cartao:hover{
+	height: 40vh;
+	width: 30vh;
+	background-color: rgba(0, 0, 0, 0.39);
+	transform: scale(1.1);
+}
+#imagem-cartao{
+	position: absolute;
+	height: 20vh;
+	width: 30vh;
+	border-radius: 20px 20px 0px 0px;
+}
+.conteudo-cartao{
+	margin: 19vh 10px 10px 10px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
 footer{
 	background-color: black;
 	width: 100%;
