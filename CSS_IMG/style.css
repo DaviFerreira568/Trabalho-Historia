@@ -117,7 +117,6 @@ main h2{
 	align-items: center;
 }
 .cartao{
-	position: relative;
 	height: 40vh;
 	width: 30vh;
 	border-radius: 20px;
@@ -132,13 +131,12 @@ main h2{
 	transform: scale(1.1);
 }
 #imagem-cartao{
-	position: absolute;
 	height: 20vh;
 	width: 30vh;
 	border-radius: 20px 20px 0px 0px;
 }
 .conteudo-cartao{
-	margin: 19vh 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
