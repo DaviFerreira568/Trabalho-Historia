@@ -85,6 +85,7 @@
     cursor: pointer;
     transition: background-color 0.3s  ;
 	width: 15vw;
+	margin-top: 1vh;
 }
 .button-turma:hover{
     background-color:#2f5781;
@@ -150,5 +151,5 @@ footer{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 0.895em;
+	font-size:0.895em;
 }
