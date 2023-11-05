@@ -90,12 +90,25 @@ header a{
 main{
 	background-color: white;
 	width: 100%;
-	height: 260vh;
+	height: 155vh;
+}
+main h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 main h2{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+main hr{
+	background-color: black;
+	height: 1vh;
+}
+.Turma-h1{
+	text-align: center; 
+	color: rgb(136, 11, 36);
 }
 .casa-cartas{
 	display: flex;
