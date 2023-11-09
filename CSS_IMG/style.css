@@ -79,11 +79,11 @@ body{
 header{
 	background-color: black;
 	width: 100%;
-	height: 6vh;
+	height: 10vh;
 	color: white;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	padding-top: 10px;
 }
 header a{
 	font-family: "Poppins";
@@ -93,7 +93,7 @@ header a{
 main{
 	background-color: white;
 	width: 100%;
-	height: 100%;
+	height: 87vh;
 }
 main h1{
 	display: flex;
@@ -105,20 +105,21 @@ main h2{
 	justify-content: center;
 	align-items: center;
 }
-main hr{
+.linha{
 	background-color: black;
 	height: 1vh;
+	width: 100%;
 }
 .Turma-h1{
 	text-align: center; 
 	color: rgb(136, 11, 36);
 }
 .casa-cartas{
-
-	display: inline-block;
-	margin: 1vw 1vh;
-	
-
+	width: 150vh;
+	margin-left: 28vh;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 15px;
 }
 .cartao{
 	height: 35vh;
@@ -142,33 +143,21 @@ main hr{
 	margin: 7px 7px 7px 7px;
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 13px;
+	font-size: 17px;
 	color: black;
 	text-decoration: none;
-}
-footer{
-	background-color: black;
-	width: 100%;
-	color: white;
-	height: 3vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-}
-.c1{
-	background-color: #b1a695;
-}
-
-.c1:hover{
-	background-color: #b1a695;
 }
 .cartao img{
 	width: 100%;
 	height: 100%;
 	border-radius: 20px ;
 }
-.sla{
+footer{
+	background-color: black;
+	width: 100%;
+	height: 8vh;
+	color: white;
+	height: 5vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
