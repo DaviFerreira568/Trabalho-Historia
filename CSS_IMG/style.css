@@ -1,32 +1,34 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-body{
+
+body {
 	height: 100vh;
 }
-/*---Caixa(conteudo dentro dela)---*/
-.caixa{
+
+.caixa {
 	width: 100%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
 }
 
-/*--------------------Menu--------------------*/
-.menu-ativar button{
+.menu-ativar button {
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
 }
-.menu-ativar{
+
+.menu-ativar {
 	position: absolute;
 	top: 10px;
 	left: 10px;
 	z-index: 2;
 }
-.menu{
+
+.menu {
 	width: 0;
 	background-color: black;
 	height: 100%;
@@ -37,46 +39,55 @@ body{
 	transition: 0.5s;
 	font-family: "Poppins";
 }
-.menu li{
-  padding: 1rem;
+
+.menu li {
+	padding: 1rem;
 }
-.menu a{
+
+.menu a {
 	color: #fff;
 	text-decoration: none;
 	display: block;
 	transition: 0.3s;
 }
-.menu li:hover{
+
+.menu li:hover {
 	background-color: #555;
 	transition: 0.7s;
 }
-#paginainicial{
+
+#paginainicial {
 	margin-top: 9vh;
 }
-.menuAberto{
+
+.menuAberto {
 	width: 250px;
 }
-.content{
+
+.content {
 	margin-left: 0;
 	padding: 20px;
 	transition: 0.5s;
 }
-.botao{
+
+.botao {
 	width: 30px;
 	height: 7px;
 	background-color: white;
 	margin: 4px 0;
 	transition: 0.4s;
 }
-.menu-ativar button:hover .botao{
+
+.menu-ativar button:hover .botao {
 	background-color: gray;
 }
-.button-turma:hover{
-    background-color:#2f5781;
-	transition:0.5s;
+
+.button-turma:hover {
+	background-color: #2f5781;
+	transition: 0.5s;
 }
-/*----------------------------------------*/
-header{
+
+header {
 	background-color: black;
 	width: 100%;
 	height: 10vh;
@@ -85,80 +96,93 @@ header{
 	justify-content: center;
 	padding-top: 10px;
 }
-header a{
+
+header a {
 	font-family: "Poppins";
 	text-decoration: none;
 	color: white;
 }
-main{
+
+main {
 	background-color: white;
 	width: 100%;
 	height: 87vh;
 }
-main h1{
+
+main h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-main h2{
+
+main h2 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.linha{
+
+.linha {
 	background-color: black;
 	height: 1vh;
 	width: 100%;
 }
-.Turma-h1{
-	text-align: center; 
+
+.Turma-h1 {
+	text-align: center;
 	color: rgb(136, 11, 36);
 }
-.casa-cartas{
+
+.casa-cartas {
 	width: 150vh;
-	margin-left: 28vh;
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 	margin-top: 15px;
 }
-.cartao{
+
+.cartao {
 	height: 35vh;
 	width: 25vh;
 	border-radius: 20px;
 	background-color: rgba(0, 0, 0, 0.288);
-	transition: .3s;
+	transition: 0.3s;
 }
-.cartao:hover{
+
+.cartao:hover {
 	height: 35vh;
 	width: 25vh;
 	background-color: rgba(0, 0, 0, 0.39);
 	transform: scale(1.1);
 }
-#imagem-cartao{
+
+#imagem-cartao {
 	height: 15vh;
 	width: 25vh;
 	border-radius: 20px 20px 0px 0px;
 }
-.conteudo-cartao{
-	margin: 7px 7px 7px 7px;
+
+.conteudo-cartao {
+	margin: 7px;
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 17px;
 	color: black;
 	text-decoration: none;
 }
-.cartao img{
+
+.cartao img {
 	width: 100%;
 	height: 100%;
-	border-radius: 20px ;
+	border-radius: 20px;
 }
-footer{
+
+footer {
 	background-color: black;
 	width: 100%;
-	height: 8vh;
 	color: white;
-	height: 5vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: fixed;
+	bottom: 0;
 }
