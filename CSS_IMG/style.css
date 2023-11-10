@@ -138,7 +138,7 @@ main h2 {
 	justify-content: space-around;
 	align-items: center;
 	margin-top: 15px;
-	margin-left: 28vh;
+	margin-left: 18vh;
 }
 
 
@@ -146,14 +146,14 @@ main h2 {
 	height: 35vh;
 	width: 25vh;
 	border-radius: 20px;
-	background-color: rgba(0, 0, 0, 0.288);
+	background-color: black;
 	transition: 0.3s;
 }
 
 .cartao:hover {
 	height: 35vh;
 	width: 25vh;
-	background-color: rgba(0, 0, 0, 0.39);
+	opacity: 0.7;
 	transform: scale(1.1);
 }
 
@@ -168,8 +168,10 @@ main h2 {
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 17px;
-	color: black;
+	color:white;
+	font-weight: bold;
 	text-decoration: none;
+	
 }
 
 .cartao img {
